@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+header{
+    background-color: #878CFF;
+    margin: auto;
+    max-width: 1500px ;
+    height: 100px;
+    
+}
+.container{
+
+margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 50px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 25px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    font-size: 30px;
+    color: rgb(172, 3, 3);
+}
+a{
+    text-decoration: none;
+}
+.btn-primary {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.section-container{
+    margin: 30px auto;
+    text-align: center;
+}
+.profile-photo{
+    width: 205.81px;
+    height: 204.26px;
+}
+section h2{
+font-size: 30px;
+font-weight: 700;
+line-height: 40px;
+text-align: center;
+margin: 20px;
+}
+section p{  
+   margin: 20px auto;
+   font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #1d1b1b;
+    width: 600px;
+}
+.secondary-button {
+   background-color: #878CFF ;
+   color: rgb(0, 0, 0);
+   padding: 10px 20px;
+   display: inline-block;
+   border-radius: 5px;
+   margin: 20px;
+   font-size: 20px;
+}
+.section-hero-container{
+    max-width: 1277px;
+    height: 500px;
+}
+.hero-section{
+    display: flex;
+    background-color: #f3f4fd;
+    text-align: center;
+    margin: auto;
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-photo{
+    width: 350px;
+    height: 350px;   
+}
+.hero-contant{
+    text-align: left;
+}
+ div h3{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+div p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.62px;
+    text-align: justified;
+}
+.third-button {
+    background-color: #878CFF ;
+    color: white;
+    padding: 20px 80px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.my-work{
+    font-size: 80px;
+    text-align: center;
+    margin: 50px;
+}
+.service{
+    max-width: 1280px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 80px 40px;
+}
+
+.service-container{
+    display: flex;
+    align-items: center;
+}
+.services{
+    
+    width: 400px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    margin: auto;
+    gap: 20px;
+    
+}
+.service-button{
+    color: #878CFF;
+    margin: auto;
+    font-size: 30px;
+    text-decoration: underline; 
+  
+}
+.service-image{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.insight{
+font-size: 50px;
+color: #878CFF;
+margin: 200px auto;
+text-align: center;
+margin-bottom: 30px;
+}
+.f-container{
+    max-width: 1280px;
+    height: 500px;
+    margin: 50px auto;
+    padding: 80px 40px;
+   
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+   
+}
+.footer-item{
+    width: 600px;
+    height: 500px;
+    border-color: #000000;
+    margin: auto;
+    padding: 5px 20px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: 5px solid rgb(0, 0, 0);
+}
+.footer-button{
+    color: #878CFF;
+    margin: 10px auto;
+    font-size: 30px;
+    text-decoration: underline;  
+}
+footer h2{
+    margin: 20px;
+}
+footer h3{
+    margin: opx;
+}
+footer p{
+    margin-top: 20px;
+}
+footer a{
+    margin-top: 25px;
+    font-size: 20px;
+}
+.footer{
+    background-color: #000000;
+    color: white;
+    max-width: 1280px;
+    height: 100px;
+    margin: auto;
+    padding: 20px 40px;
+    display: flex;
+}
+.copywrite{
+    text-align: center;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    width: 246px;
+    height: 21px;
+}
+.footer-image{
+    width: 30px;
+height: 30px;
+display: flex;
+align-items: center;
+gap: 20px;
+justify-content: space-between;
+text-align: center;
+
+}
+

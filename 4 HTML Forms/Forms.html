@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Forms</title>
+</head>
+<body>
+<H2>HTML Forms</H2>
+<form>
+   
+    <!-- Box -->
+   
+    <fieldset>
+    <legend style="color: blueviolet;"><strong>User Registration</strong></legend>
+   
+    <!-- Name     -->
+
+    <label for="First Name">First Name</label>
+    <span style="color: crimson;">*</span>
+    <input id="First Name" type="text" placeholder="Enter Your Name" required>
+    <br><br>
+    
+    <!-- Email -->
+
+    <label for="Email">Email Address</label>
+    <span style="color: crimson;">*</span>
+    <input id="Email" type="email" placeholder="test@email.com" required>
+    <br><br>
+    
+    <!-- Mobile Number -->
+    
+    <label for="Mobile Number">Mobile Number</label>
+    <input id="Mobile Number" type="number" placeholder="+01515000000">
+<br><br>
+
+<!-- Password -->
+
+    <label for="Password">Password</label>
+    <input id="Password" type="password">
+    <br><br>
+
+    <!-- Chose Country -->
+
+    <label for="Country">Chose Country</label>
+    <select id="Country">
+        <option value="">Select Country</option>
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="Nepal">Nepal</option>
+        <option value="Thailand">Thailand</option>
+        <option value="Maldives">Maldives</option>
+    </select>
+    <br><br>
+
+<!-- Radio -->
+
+<label for="Gender">Gender</label>
+<input type="radio" name="Gender" id="male">
+<label for="Male">Male</label>
+<input type="Radio" name="Gender" id="female">
+<label for="female">Female</label>
+<input type="radio" name="Gender" id="Third Gender">
+<label for="Third Gender">Third Gender</label>
+<br><br>
+
+<!-- Date of Birtrh -->
+
+<label for="Birtrh">Date of Birtrh</label>
+<input id="Birtrh" type="date" required>
+<br><br>
+
+<!-- File Upload -->
+<label for="Upload">File upload</label>
+<input type="file" accept="Image" multiple id="Upload">
+<br><br>
+
+<!-- Comments -->
+
+<label for="Coments">Your Massages</label><br>
+<textarea id="Coments" cols="30" rows="5" placeholder="Hello"></textarea>
+<br><br>
+
+<!-- Checkbox -->
+ 
+<label for="Terms & Condition">Aggred with Terms & Condition</label>
+<input type="checkbox" id="Terms & Condition" required>
+<span style="color: red;">*</span>
+
+<input type="color" name="red" id="">
+
+<Br><Br>
+<!-- Submit Button & Reset-->
+
+    <input type="submit" value="Register"/>
+    <label for="Reset"></label>
+    <input type="Reset">
+    </fieldset>
+</form>
+
+</body>
+</html>

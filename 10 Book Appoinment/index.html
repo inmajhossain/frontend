@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appoinment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <main>
+        <section class="appoinment">
+            <div class=" container appoinment-container">   
+                <div class="appoinment-image">
+                    <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                </div>
+        
+   
+        
+                <Div class="appoinment-form">
+                    <form action="https://formspree.io/f/mqazzlvk"
+                    method="POST" class="form">
+                    <h1>Book Appoinment</h1> 
+                    <input type="text" placeholder="Jhon Dio" name="your_name"> 
+                    <input type="email" placeholder="e.g yourmail@email.com" name="email" required>
+                    <textarea cols="30" rows="10" type="text" placeholder="Hello I Have Issues With" name="message"></textarea><br>
+                    <label class="gender" for="gender">Chose Gender</label>
+                    <div class="gender-group">    
+                        <label for="gender">Male</label>
+                        <input type="radio" name="gender" value="male">
+                        <label for="gender">Female</label>
+                        <input type="radio" name="gender" value="female">
+                    </div> 
+                    <input class="form-btn" type="submit" value="Book My Call">
+                    </form> 
+                </Div>
+            </div>
+        </section>
+   </main>
+</body>
+</html>

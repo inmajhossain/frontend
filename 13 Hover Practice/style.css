@@ -1,0 +1,64 @@
+/* p::first-letter{
+    color: red;
+    font-size: 30px;
+}
+p::first-line{
+    background-color: black;
+    color: white;
+}
+p:nth-child(odd) {
+    background-color: brown;
+    color: yellow;
+    padding: 10px;
+}
+p:nth-child(even) {
+    background-color: rgb(255, 252, 70);
+    color: rgb(255, 0, 0);
+    padding: 10px;
+}
+div:nth-child(odd){
+    background-color: aquamarine;
+    padding: 20px;
+}
+.container:nth-child(even){
+    background-color: bisque;
+    color: aliceblue;
+    padding: 30px;
+} */
+ /* p:first-child{
+    background-color: aqua;
+    color: blueviolet;
+ } */
+
+::selection{
+    background-color: blueviolet;
+}
+
+::marker{
+    color: aqua;
+    font-size: 30px;
+}
+  p:hover{
+    background-color: black;
+    color: blueviolet;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+  }
+ 
+  a:hover{
+    background-color: black;
+    color: blueviolet;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+  }
+ a:link{
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+  }
+  a:visited{
+    background-color: black;
+    color: yellow;
+  }
