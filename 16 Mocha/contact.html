@@ -6,13 +6,14 @@
     <link rel="shortcut icon" href="assets/image/Logo.JPG" type="image/x-icon">
     <title>Mocha</title>
     <link rel="stylesheet" href="contact.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- Headre Section Start -->
     <header>
         <div class="container">
             <div class="header">
-                <div class="header-container">
+                <div class="header-container bounce-top">
                     <div class="logo">
                         <img src="assets/image/Logo.JPG" alt="" >
                         <h2>MOCHA</h2>
@@ -35,9 +36,9 @@
         <!-- Hero Section Start -->
         <section class="form-container">
             <div class="container">
-                <div class="form-section"> 
+                <div data-aos="fade-up" class="form-section"> 
                     <div class="form-left">
-                        <h3>SAY HEY</h3>
+                        <h3 class="bounce-top">SAY HEY</h3>
                         <h1>Contact, connect,
                             <span class="form-span">and indulge!</span></h1>
                     <div class="information"> 
@@ -91,7 +92,7 @@
                         " >Message</label>
                         <textarea name="Message
                         " id="" cols="58" rows="8"></textarea>
-                        <input class="form-btn" type="submit" value="Submit">
+                        <input class="form-btn bounce-top" type="submit" value="Submit">
                      </form>    
                     </div>
                 </div>
@@ -153,8 +154,14 @@
         </div>
     </div>
 </section>
-<!-- Footer Section End -->
+
 </main>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+                duration: 1500,
+            });
+  </script>
 </body>
 </html>   
     

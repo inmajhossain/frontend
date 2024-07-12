@@ -6,13 +6,14 @@
     <link rel="shortcut icon" href="assets/image/Logo.JPG" type="image/x-icon">
     <title>Mocha</title>
     <link rel="stylesheet" href="about.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- Headre Section Start -->
     <header>
         <div class="container">
             <div class="header">
-                <div class="header-container">
+                <div class="header-container bounce-top">
                     <div class="logo">
                         <img src="assets/image/Logo.JPG" alt="">
                         <h2>MOCHA</h2>
@@ -35,18 +36,18 @@
 <!-- Hero Section Start -->
 <section class="hero">
     <div class="container">
-        <div class="hero-section">
+        <div data-aos="fade-right" class="hero-section">
             
             <div class="hero-left">
                 <img src="assets/image/about 1.avif" alt="">
             </div>
             <div class="hero-right">
-                <h3>ABOUT US</h3>
+                <h3 class="bounce-top">ABOUT US</h3>
                 <h1>Mocha's
                     <span class="hero-span">marvels</span>
                 </h1>
                     <p>In the heart of Melbourne, Mocha emerged with a passion for crafting exceptional experiences. </p>
-                    <button class="primary-btn">
+                    <button class="primary-btn bounce-top">
                         Learn more
                     </button>
             </div>
@@ -63,9 +64,9 @@
 
 <section class="celebration">
     <div class="container">
-        <div class="celebration-section">
+        <div data-aos="fade-up" class="celebration-section">
             <div class="celebration-container">
-                <h3>OUR MISSION</h3>
+                <h3 class="bounce-top">OUR MISSION</h3>
                 <p>At Mocha, our mission is simple: to elevate your everyday moments with exceptional flavors, inviting ambiance, and a touch of joy in every sip and bite.</p>
             </div>
         </div>
@@ -79,9 +80,9 @@
 <!-- story section start -->
 <section class="story">
     <div class="container">
-        <div class="story-section">
+        <div data-aos="fade-left" class="story-section">
             <div class="story-left">
-                <h3>OUR STORY</h3>
+                <h3 class="bounce-top">OUR STORY</h3>
                 <h1>Our humble
                     <span class="story-span">beginning</span>
                 </h1>
@@ -109,7 +110,7 @@
         <div class="menu-section">
             <div class="menu-left">
                 <div class="menue-left-container">
-                    <h3>OUR VALUES</h3>
+                    <h3 class="bounce-top">OUR VALUES</h3>
                 <h2>Mocha
                 <span class="menu-span">magic</span></h2>
                 <p>SWe embrace a commitment to excellence, creativity, and hospitality, crafting a unique experience that celebrates the art of coffee and culinary delight.</p>
@@ -117,7 +118,7 @@
                 
                 
             </div>
-            <div class="menu-items ">
+            <div data-aos="fade-up" class="menu-items ">
                 <div>
                     <img src="assets/image/about group 1.avif" alt="">
                     <h3>Coffee craftsmanship</h3>
@@ -148,18 +149,18 @@
 
 <section class="location">
     <div class="container">
-        <div class="location-section">
+        <div data-aos="fade-right" class="location-section">
             
             <div class="location-left">
                 <img src="assets/image/about 5.avif" alt="">
             </div>
             <div class="location-right">
-                <h3>OUR LOCATION</h3>
+                <h3 class="bounce-top">OUR LOCATION</h3>
                 <h1>Conveniently
                     <span class="hero-span">central</span>
                 </h1>
                     <p>Located at the heart of the city, Mocha offers a central oasis for easy access and a welcoming retreat, making it the perfect spot to unwind and savor delightful moments in the midst of urban hustle.</p>
-                    <button class="primary-btn">
+                    <button class="primary-btn bounce-top">
                         Find Us
                     </button>
             </div>
@@ -181,7 +182,7 @@
         <div class="ask-section">
             
             <div class="ask-top">
-                <h3>ANSWERS FOR YOU</h3>
+                <h3 class="bounce-top">ANSWERS FOR YOU</h3>
             <h2>Frequent
             <span class="ask-span">questions</span></h2>
             <p>SIn-depth insights and quick answers, ensuring you have all the information you need for an enjoyable experience at Mocha.</p>
@@ -346,5 +347,11 @@
 
 
 <!-- Footer Section End -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+                duration: 1500,
+            });
+  </script>
 </body>
 </html>

@@ -6,13 +6,14 @@
     <link rel="shortcut icon" href="assets/image/Logo.JPG" type="image/x-icon">
     <title>Mocha</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- Headre Section Start -->
     <header>
         <div class="container">
             <div class="header">
-                <div class="header-container">
+                <div class="header-container bounce-top">
                     <div class="logo">
                         <img src="assets/image/Logo.JPG" alt="">
                         <h2>MOCHA</h2>
@@ -37,7 +38,7 @@
     <div class="container">
         <div class="hero-section">
             <div class="hero-left">
-                <h3>MELBOURNE CAFE</h3>
+                <h3 class="bounce-top">MELBOURNE CAFE</h3>
                 <h1>Delicious
                     <span class="hero-span">bites,</span>
                     devine
@@ -47,7 +48,7 @@
                         Contact us
                     </button>
             </div>
-            <div class="hero-right">
+            <div data-aos="fade-left" class="hero-right">
                 <img src="assets/image/image1.avif" alt="">
             </div>
         </div>
@@ -63,13 +64,13 @@
 
 <section class="celebration">
     <div class="container">
-        <div class="celebration-section">
+        <div data-aos="fade-up" class="celebration-section">
             <div class="celebration-container">
-                <h3>CATERED DELIGHTS</h3>
+                <h3 class="bounce-top">CATERED DELIGHTS</h3>
             <h2>We cater,
                 <span class="celebration-span">you celebrate!</span></h2>
                 <p>Sit back, relax, and let us take care of the feast – our hassle-free catering services bring delicious moments to your celebrations, so you can enjoy every bite without a worry.</p>
-                <button class="celebration-btn">Learn more</button>
+                <button class="celebration-btn bounce-top">Learn more</button>
             </div>
         </div>
     </div>
@@ -152,7 +153,7 @@
 
 <section class="comment">
     <div class="container">
-        <div class="comment-section">
+        <div data-aos="fade-right" class="comment-section">
            
            
            
@@ -166,7 +167,7 @@
             
             
             <div class="comment-right">
-                <h3>WHAT LOCALS ARE SAYING</h3>
+                <h3 class="bounce-top">WHAT LOCALS ARE SAYING</h3>
                     <p>"Mocha exceeded all expectations! From the incredible coffee blends to the delightful menu, each visit is a culinary delight. The chic ambiance is the cherry on top, making it our favorite spot for a perfect blend of flavor and atmosphere. Highly recommended!"</p>
                     <h4>— Jack Wynd<h4>
             </div>
@@ -278,5 +279,11 @@
 
 
 <!-- Footer Section End -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+                duration: 1500,
+            });
+  </script>
 </body>
 </html>

@@ -6,13 +6,14 @@
     <link rel="shortcut icon" href="assets/image/Logo.JPG" type="image/x-icon">
     <title>Mocha</title>
     <link rel="stylesheet" href="menu.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- Headre Section Start -->
     <header>
         <div class="container">
             <div class="header">
-                <div class="header-container">
+                <div class="header-container bounce-top">
                     <div class="logo">
                         <img src="assets/image/Logo.JPG" alt="">
                         <h2>MOCHA</h2>
@@ -35,7 +36,7 @@
     <!-- menu top section start -->
     <section class="cater">
         <div class="container">
-            <div class="menu-section">
+            <div data-aos="fade-up" class="menu-section">
                 <h3>OUR TASTY OFFERINGS</h3>
                 <h1>Our menu</h1>
                     </div>
@@ -71,7 +72,7 @@
                     </div>
                         
                 </div>
-                <div class="item-right">
+                <div data-aos="fade-right" class="item-right">
                     <h2>Coffee specialties</h2>
                     <img src="assets/image/coffe 1.avif" alt="">
                 </div>
@@ -100,7 +101,7 @@
                     </div>
                         
                 </div>
-                <div class="item-right">
+                <div data-aos="fade-left" class="item-right">
                     <h2>Breakfast delights</h2>
                     <img src="assets/image/straberry 2.avif" alt="">
                 </div>
@@ -128,7 +129,7 @@
                         <h4>$12.40</h4>
                     </div>     
                 </div>
-                <div class="item-right">
+                <div data-aos="fade-right" class="item-right">
                     <h2>Savory snacks</h2>
                     <img src="assets/image/patis 3.avif" alt="">
                 </div>
@@ -157,7 +158,7 @@
                     </div>
                         
                 </div>
-                <div class="item-right">
+                <div data-aos="fade-left" class="item-right">
                     <h2>Sweet Indulgences</h2>
                     <img src="assets/image/Biscut 4.avif" alt="">
                 </div>
@@ -245,5 +246,11 @@
     </div>
 </section>
 <!-- Footer Section End -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+                duration: 1500,
+            });
+  </script>
 </body>
 </html>

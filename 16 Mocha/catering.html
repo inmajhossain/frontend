@@ -6,13 +6,14 @@
     <link rel="shortcut icon" href="assets/image/Logo.JPG" type="image/x-icon">
     <title>Mocha</title>
     <link rel="stylesheet" href="catering.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- Headre Section Start -->
     <header>
         <div class="container">
             <div class="header">
-                <div class="header-container">
+                <div class="header-container bounce-top">
                     <div class="logo">
                         <img src="assets/image/Logo.JPG" alt="">
                         <h2>MOCHA</h2>
@@ -34,7 +35,7 @@
 <main>
     <!-- cater section start -->
     <section class="cater">
-        <div class="container">
+        <div data-aos="fade-up" class="container">
             <div class="cater-section">
                 <h1>Let's cater, <span>with confidence</span></h1>
                 <p>Elevate your events with our impeccable catering service—where culinary excellence meets seamless execution for unforgettable experiences.</p>
@@ -49,7 +50,7 @@
     <div class="container">
         <div class="hero-section">
             <div class="hero-left">
-                <h3>WHAT'S ON OFFER?</h3>
+                <h3 class="bounce-top">WHAT'S ON OFFER?</h3>
                 <h1>Our catering fiesta
                     
                     for
@@ -62,7 +63,7 @@
                         <li>Half day to full day venue hire</li>
                     </ul>
             </div>
-            <div class="hero-right">
+            <div data-aos="fade-left" class="hero-right">
                 <img src="assets/image/contact image 1.avif" alt="">
             </div>
         </div>
@@ -78,9 +79,9 @@
 
 <section class="celebration">
     <div class="container">
-        <div class="celebration-section">
+        <div data-aos="fade-up" class="celebration-section">
             <div class="celebration-container">
-                <h3>SAVORING MOMENTS</h3>
+                <h3 class="bounce-top">SAVORING MOMENTS</h3>
                 <p>"Mocha's catering service exceeded all expectations! From the delectable dishes to the seamless service, they transformed our event into a culinary masterpiece. Each bite was a burst of flavor, and their attention to detail made our celebration truly memorable. Mocha, you've set the bar high!"</p>
                 <h4>Jennifer Lonem</h4>
             </div>
@@ -103,7 +104,7 @@
            
            
            
-            <div class="comment-left">
+            <div data-aos="fade-right" class="comment-left">
                 <img src="assets/image/contact image 3.avif" alt="">
             </div>
             
@@ -112,7 +113,7 @@
             
             
             <div class="comment-right">
-                <h3>WHAT TO BRING?</h3>
+                <h3 class="bounce-top">WHAT TO BRING?</h3>
                 <h4>Just your <span>appetite & joy</span></h4>
                     <p>"For a delightful experience at Mocha, all you need to bring is your appetite and a zest for savoring moments. We've got the rest covered, ensuring you enjoy every bite and sip in our welcoming atmosphere.</p>
             
@@ -126,9 +127,9 @@
 
  <section class="form-container">
     <div class="container">
-        <div class="form-section"> 
+        <div data-aos="fade-down" class="form-section"> 
             <div class="form-left">
-                <h3>BOOK NOW</h3>
+                <h3 class="bounce-top">BOOK NOW</h3>
                 <h2>Book your,
                     <span class="form-span">culinary celebration!</span></h2>
              
@@ -147,7 +148,7 @@
                 " >Message</label>
                 <textarea name="Message
                 " id="" cols="58" rows="4"></textarea>
-                <input class="form-btn" type="submit" value="Submit">
+                <input class="form-btn bounce-top" type="submit" value="Submit">
              </form>    
             </div>
         </div>
@@ -264,5 +265,11 @@
 
 
 <!-- Footer Section End -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+                duration: 1500,
+            });
+  </script>
 </body>
 </html>
