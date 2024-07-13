@@ -1,0 +1,660 @@
+
+@import url(satoshi.css);
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+image{
+    width: 100%;
+}
+html{
+   font-size: 10px; 
+}
+body{
+    transition: all 2s ease;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header Section Start */
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.header-section img{
+    width: 100px;
+}
+.header-section nav{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.header-section nav a{
+    font-size: 1.8rem;
+    color: black;
+}
+
+/* Header Section End */
+
+/* Main Section Start */
+
+
+/* Location Section Start */
+
+/* location-section-top-Start */
+.location-section-top{
+    margin-top: 50px;
+}
+.location-section-top h1{
+    margin-top: 20px;
+    width: 800px;
+    font-size: 6.5rem;
+    font-weight: 500;
+}
+.location-section-top h2{
+    font-size: 3.5rem;
+    width: 900px;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+/* location-section-Top-End */
+
+/* location-section-Middle-Start */
+.location-section-middle{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+.loscation-middle-left{
+    position: relative;
+}
+.location-middle-left::after{
+    content: "499€ /night";
+    position: absolute;
+    background-color: #E8EDF2 ;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-size: 1.8rem;
+    left:430px;
+    margin-top: 30px;  
+}
+
+
+.location-middle-left img{
+    max-width: 500px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.location-middle-left-a img{
+    max-width: 500px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.loscation-middle-left-a{
+    position: relative;
+}
+.location-middle-left-a::after{
+    content: "499€ /night";
+    position: absolute;
+    background-color: #E8EDF2 ;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-size: 1.8rem;
+    right:430px;
+    margin-top: 30px;  
+}
+
+.location-middle-right{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.location-middle-right h3{
+    background-color: #F3F2FF;
+    width: 200px;
+    font-size: 1.8rem;
+    padding: 5px 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+.location-middle-right h2{
+    font-size: 3.2rem;
+    font-weight: 400;
+}
+.location-middle-right p{
+    width:500px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.middle-right-top{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.middle-right-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.middle-right-info::after{
+    content: "";
+    position: absolute;
+    width: 500px;
+    border: 1px solid black;
+    top: -20px;
+}
+.middle-right-info img{
+    width: 30px;
+}
+.middle-right-info h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.middle-right-info button{
+    margin-top: 50px;
+    font-size: 1.7rem;
+    font-weight:600 ;
+    background-color: #080326;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 25px;
+}
+.middle-right-info button:nth-child(2){
+    font-size: 1.7rem;
+    font-weight:600 ;
+   background-color: white;
+    border-radius: 50px;
+    color: black;
+    padding: 15px 25px;
+}
+/* location-section-Middle-End */
+
+/* location-section-Bottom-Start */
+
+.location-section-middle:last-child{
+    flex-direction: row-reverse;
+    margin-top: 100px;
+}
+
+/* location-section-Bottom-End */
+
+/* location-section-End */
+
+/* Main Section End */
+/* Footer Section Start */
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 450px;
+    background: #011126;
+    background: linear-gradient(150deg, #011126 60%, #414B5E 100%);
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 70px;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+.footer-top{
+    display: grid;
+    grid-template-columns: 700px 300px 300px ;
+    grid-column: auto-fit;
+}
+.footer-top h2{
+    font-size: 10rem;
+    font-weight: 700;
+}
+.footer-top h3{
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+.top-left{
+    position: relative;
+}
+.top-left::after{
+    content: "";
+    position: absolute;
+    height: 250px;
+    border: 1px solid white;
+    top: 0px;
+    right: 100px;
+    
+}
+.top-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.top-right h3{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.top-right a{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-bottom h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 20px; 
+}
+.footer-bottom nav{
+    display:flex;
+    gap: 20px;
+}
+.footer-bottom a{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+}
+
+
+
+/* Media Section Start */
+
+
+@media(max-width: 768px){
+    .container{
+        max-width: 768px;
+        margin: auto;
+    } 
+    .header-section{
+        justify-content: space-evenly;
+    }
+    
+    /* location-section-top-Start */
+
+.location-section-top h1{
+        margin: auto;
+        font-size: 4rem;
+        text-align: center;
+        margin-bottom: 10px;    
+    }
+.location-section-top h2{
+    margin: auto;
+    width: 700px;
+    font-size: 2.5rem;
+    text-align: center;  
+}
+/* location-section-Top-End */
+/* location-section-Middle-Start */
+.location-section-middle{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.loscation-middle-left{
+    position: relative;
+}
+.location-middle-left::after{
+    content: "499€ /night";
+    position: absolute;
+    background-color: #E8EDF2 ;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-size: 1.8rem;
+    left:430px;
+    margin-top: 30px;  
+}
+.location-middle-left img{
+    max-width: 500px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.location-middle-left-a img{
+    max-width: 500px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.loscation-middle-left-a{
+    position: relative;
+}
+.location-middle-left-a::after{
+    content: "499€ /night";
+    position: absolute;
+    background-color: #E8EDF2 ;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-size: 1.8rem;
+    right:430px;
+    margin-top: 30px;  
+}
+
+.location-middle-right{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+.location-middle-right h3{
+    background-color: #F3F2FF;
+    width: 200px;
+    font-size: 1.8rem;
+    padding: 5px 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+.location-middle-right h2{
+    font-size: 3.2rem;
+    font-weight: 400;
+}
+.location-middle-right p{
+    width:500px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.middle-right-top{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.middle-right-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.middle-right-info::after{
+    content: "";
+    position: absolute;
+    width: 500px;
+    border: 1px solid black;
+    top: -20px;
+}
+.middle-right-info img{
+    width: 30px;
+}
+.middle-right-info h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.middle-right-info button{
+    margin-top: 50px;
+    font-size: 1.7rem;
+    font-weight:600 ;
+    background-color: #080326;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 25px;
+}
+.middle-right-info button:nth-child(2){
+    font-size: 1.7rem;
+    font-weight:600 ;
+   background-color: white;
+    border-radius: 50px;
+    color: black;
+    padding: 15px 25px;
+}
+/* location-section-Middle-End */
+/* location-section-Bottom-Start */
+.location-section-middle:last-child{
+    flex-direction: row-reverse;
+    margin-top: 100px;
+}
+/* location-section-Bottom-End */
+/* location-section-End */
+
+.footer-section{
+    max-width: 768px;
+}
+.footer-top{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: -40px;
+}
+.top-left{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.top-left::after{
+    content: none;
+}
+.top-right{
+    flex-direction: row;
+    align-items: last baseline;
+    justify-content:start;
+}
+.top-right h3{
+    margin-left: 150px;
+    font-size: 2rem;
+    margin-right: 50px;
+}
+.top-right a{
+    font-size: 1.8rem;
+}
+.footer-bottom{
+    justify-content: space-evenly;
+}
+}
+@media(max-width: 390px){
+    .container{
+        max-width: 390px;
+        margin: auto;
+    } 
+    .header-section{
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+/* location-section-top-Start */
+    .location-section-top h1{
+        width: 350px;
+        margin: auto;
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 10px;    
+    }
+.location-section-top h2{
+    width: 350px;
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;  
+}
+/* location-section-Top-End */
+
+/* location-section-Middle-Start */
+.location-section-middle{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    gap: 50px;   
+}
+.location-middle-left{
+    position: relative;
+}
+.location-middle-left::after{
+    content: "499€ /night";
+    position: absolute;
+    background-color: #E8EDF2 ;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-size: 1.8rem;
+    left:40px;
+    margin-top: 30px;  
+}
+.location-middle-left img{
+    max-width: 350px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.location-middle-left-a img{
+    max-width: 350px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.loscation-middle-left-a{
+    position: relative;
+}
+.location-middle-left-a::after{
+    content: "499€ /night";
+    position: absolute;
+    background-color: #E8EDF2 ;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-size: 1.8rem;
+    right:50px;
+    margin-top: 30px;  
+}
+.location-middle-right{
+    margin: auto;
+    width: 350px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+.location-middle-right h3{
+    background-color: #F3F2FF;
+    width: 200px;
+    font-size: 1.8rem;
+    padding: 5px 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+.location-middle-right h2{
+    font-size: 3.2rem;
+    font-weight: 400;
+}
+.location-middle-right p{
+    width:500px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.middle-right-top{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.middle-right-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.middle-right-info::after{
+    content: "";
+    position: absolute;
+    width: 350px;
+    border: 1px solid black;
+    top: -20px;
+}
+.middle-right-info img{
+    width: 30px;
+}
+.middle-right-info h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.middle-right-info button{
+    margin-top: 50px;
+    font-size: 1.7rem;
+    font-weight:600 ;
+    background-color: #080326;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 25px;
+}
+.middle-right-info button:nth-child(2){
+    font-size: 1.7rem;
+    font-weight:600 ;
+   background-color: white;
+    border-radius: 50px;
+    color: black;
+    padding: 15px 25px;
+}
+/* location-section-Middle-End */
+/* location-section-Bottom-Start */
+.location-section-middle:last-child{
+    flex-direction: row-reverse;
+    margin-top: 100px;
+}
+/* location-section-Bottom-End */
+
+/* location-section-End */
+
+
+.footer-section{
+    max-width: 39px;
+}
+.footer-top{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: -40px;
+}
+.top-left{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.top-left::after{
+    content: none;
+}
+.top-right{
+    flex-direction: row;
+    align-items: last baseline;
+    justify-content:start;
+}
+.top-right h3{
+    margin-left: 10px;
+    font-size: 2rem;
+    margin-right: 10px;
+}
+.top-right a{
+    font-size: 1rem;
+}
+
+.footer-bottom{
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.footer-bottom nav{
+    width: 390px;
+    margin: auto;
+    margin-left: 20px;
+    margin-bottom: -20px;
+}
+.top-left h2{
+    font-size: 6rem;
+}
+}
