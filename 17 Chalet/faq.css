@@ -1,0 +1,566 @@
+
+@import url(satoshi.css);
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+image{
+    width: 100%;
+}
+html{
+   font-size: 10px; 
+}
+body{
+    transition: all 2s ease;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header Section Start */
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.header-section img{
+    width: 100px;
+}
+.header-section nav{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.header-section nav a{
+    font-size: 1.8rem;
+    color: black;
+}
+
+/* Header Section End */
+
+/* Main Section Start */
+
+/* Hero Section Start */
+.hero{
+    margin: auto;
+    width: 1600px;
+    background-image: url(assets/image/Home\ 1.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.hero-section{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 25px 0px;   
+}
+.hero-section h1{
+    width: 500px;
+    font-size: 7rem;
+    color: white;
+    font-weight: 600;
+}
+.hero-section h2{
+    width: 500px;
+    font-size: 1.8rem;
+    color: white;  
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.hero-button{
+    width: 180px;
+    display: block;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 50px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-style:none ;    
+}
+.color-change-4x{-webkit-animation:color-change-4x 6s linear infinite alternate both;animation:color-change-4x 6s linear infinite alternate both}
+ @-webkit-keyframes color-change-4x{0%{background:#19dcea}33.3333%{background:#b22cff}66.666%{background:#ea2222}100%{background:#f5be10}}@keyframes color-change-4x{0%{background:#19dcea}33.3333%{background:#b22cff}66.666%{background:#ea2222}100%{background:#f5be10}}
+ 
+/* Hero Section End */
+
+/* faq section start */
+
+.ask-section{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.ask-top{
+    text-align: center;  
+}
+.ask-top h2{
+    margin: auto;
+    font-size: 8rem; 
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 500;  
+}
+.ask-top .ask-span{
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-style: italic;
+}
+.ask-top{
+    margin: auto;
+    width: 1200px;
+    font-size: 2.5rem; 
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  .question-section{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    flex-wrap: wrap;
+  }
+
+  .question-container{
+    display: flex;
+    flex-basis: 50%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .question-left{
+    width: 300px;
+  }
+  .question-left h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+  .question-right{
+    width: 900px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+  }
+  .question-info{
+    position: relative;
+  }
+  .question-info::after{
+    content: "";
+    position: absolute;
+    width: 900px;
+    
+    border: 1px solid black;
+    bottom: -20px;
+  }
+  .question-info h3{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+  .question-info p{
+    width: 900px;
+   font-size: 1.5rem;
+  }
+ /* faq section end */
+
+/* about-section-Start */
+.about-section{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    gap: 50px;
+    background-color: #F3F2FF;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+.about-left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.about-left-top h3{
+    background-color: #F3F2FF;
+    width: 200px;
+    font-size: 1.8rem;
+    text-align: left;
+}
+.about-left-top h2{
+    font-size: 3.2rem;
+    font-weight: 400;
+}
+.about-left-top p{
+    width:500px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.about-left-top{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.about-left-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.about-left-info::after{
+    content: "";
+    position: absolute;
+    width: 500px;
+    border: 1px solid black;
+    top: -20px;
+}
+.about-left-info img{
+    width: 30px;
+}
+.about-left-info h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.about-left-info button{
+    margin-top: 50px;
+    font-size: 1.7rem;
+    font-weight:600 ;
+    background-color: #080326;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 25px;
+}
+.about-left-info button:nth-child(2){
+    font-size: 1.7rem;
+    font-weight:600 ;
+   background-color: white;
+    border-radius: 50px;
+    color: black;
+    padding: 15px 25px;
+}
+.about-right img{
+    max-width: 570px;
+    height: 620px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* about-section-End */
+/* Main Section End */
+/* Footer Section Start */
+.footer{
+    width: 100%;
+    height: 450px;
+    background: #011126;
+    background: linear-gradient(150deg, #011126 60%, #414B5E 100%);
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 70px;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+.footer-top{
+    display: grid;
+    grid-template-columns: 700px 300px 300px ;
+    grid-column: auto-fit;
+}
+.footer-top h2{
+    font-size: 10rem;
+    font-weight: 700;
+}
+.footer-top h3{
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+.top-left{
+    position: relative;
+}
+.top-left::after{
+    content: "";
+    position: absolute;
+    height: 250px;
+    border: 1px solid white;
+    top: 0px;
+    right: 100px;   
+}
+.top-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.top-right h3{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.top-right a{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-bottom h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 20px; 
+}
+.footer-bottom nav{
+    display:flex;
+    gap: 20px;
+}
+.footer-bottom a{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+}
+/* Media Section Start */
+@media(max-width: 768px){
+    .container{
+        max-width: 768px;
+        margin: auto;
+    } 
+    .header-section{
+        justify-content: space-evenly;
+    }
+    .hero{
+        Max-width: 768px;
+        height: 500px;
+    }
+    .hero-section{
+        height: 768px;
+        justify-content: center;
+        padding: 25px;   
+    }
+    .hero-section h1{   
+        font-size: 6rem;    
+    }
+    .hero-button{
+        margin-bottom: 80px;     
+    }
+    /* !-- faq section start --> */
+.ask-top h2{
+    margin-left: 20px;
+}
+.ask-top p{
+    margin-left: 20px;
+}
+    .question-left{
+        margin-bottom: 30px;
+        width: 750px;
+        margin-left: 20px;    
+    }
+    .question-right{
+        width: 750px;
+        margin-top: 50px;
+        margin: auto;
+        margin-left: 20px;
+        
+      }
+      .question-info{
+        position: relative;
+      }
+      .question-info::after{
+        content: "";
+        position: absolute;
+        width: 700px; 
+        border: 1px solid black;
+        bottom: -20px;
+      }
+      .question-info p{
+        width: 700px;
+      }
+    /* <!-- faq section end --> */
+
+/* about-section-Start */
+.about-section{
+    max-width: 750px;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+}
+/* about-section-End */
+.footer-section{
+    max-width: 768px;
+}
+.footer-top{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: -40px;
+}
+.top-left{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.top-left::after{
+    content: none;
+}
+.top-right{
+    flex-direction: row;
+    align-items: last baseline;
+    justify-content:start;
+}
+.top-right h3{
+    margin-left: 150px;
+    font-size: 2rem;
+    margin-right: 50px;
+}
+.top-right a{
+    font-size: 1.8rem;
+}
+.footer-bottom{
+    justify-content: space-evenly;
+}
+}
+@media(max-width: 390px){
+    .container{
+        max-width: 390px;
+        margin: auto;
+    } 
+    .header-section{
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hero{
+        Max-width: 390px;    
+    }
+    .hero-section{
+        height: 390px;
+        justify-content: center;
+        align-items: center;
+        padding: 25px; 
+        text-align: center;  
+    }
+    .hero-section h1{   
+        margin-top: 300px;
+        width: 350px;font-size: 4rem;    
+    }
+    /* !-- faq section start --> */
+
+    .ask-top p{
+        width: 350px;
+        margin-left: 20px;
+    }
+    .question-right p{
+        width: 340px;
+    }
+    .question-info:after{
+        width: 340px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* <!-- faq section end --> */
+
+/* about-section-Start */
+
+.about-section{
+    max-width: 390px;
+    justify-content: center;
+    border-radius: 20px;
+}
+.about-left{
+    margin: auto;
+    width: 390px;
+    padding: 10px;
+}
+.about-left-top{
+    width: 390px;
+}
+.about-left-top p{
+    width: 380px;
+}
+.about-right img{
+    width: 350px;
+}
+/* about-section-End */
+
+.footer-section{
+    max-width: 39px;
+}
+.footer-top{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: -40px;
+}
+.top-left{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.top-left::after{
+    content: none;
+}
+.top-right{
+    flex-direction: row;
+    align-items: last baseline;
+    justify-content:start;
+}
+.top-right h3{
+    margin-left: 10px;
+    font-size: 2rem;
+    margin-right: 10px;
+}
+.top-right a{
+    font-size: 1rem;
+}
+
+.footer-bottom{
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.footer-bottom nav{
+    width: 390px;
+    margin: auto;
+    margin-left: 20px;
+    margin-bottom: -20px;
+}
+.top-left h2{
+    font-size: 6rem;
+}
+}
