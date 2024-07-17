@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Shahin';
+    src: url('assets/fonts/Shahin.woff2') format('woff2'),
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+  }
