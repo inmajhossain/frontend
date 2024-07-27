@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily:{
+                shahin:["shahin", "satoshi"],
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="font-shahin">
+<!-- Header Section Start -->
+<header>
+<!-- Header Section Top -->
+        <section class="max-w-full bg-lime-900">
+         <div class="max-w-[1400px] mx-auto flex align-center justify-between bg px-6 py-3">  
+        <div class=" mx-auto flex gap-10 justify-between md:mx-1 ">
+            <div class="flex gap-3">
+            <img class="size-7 rounded-full bg-white px-1 py-1" src="assets/image/call icon.png" alt="">
+            <h3 class="text-white">(123) 456 - 7890</h3>
+            </div>
+            <div class="flex gap-3">
+            <img class="size-7 rounded-full bg-white px-1 py-1" src="assets/image/message.png" alt="">
+            <h3 class="text-white">framerbite@gmail.com</h3>
+            </div>
+        </div>
+        <div class="hidden md:flex gap-3">
+            <img class="size-7" src="assets/image/twitter.png" alt="">
+            <img class="size-7" src="assets/image/Facebook.png" alt="">
+            <img class="size-7" src="assets/image/instagram.png" alt="">
+            <img class="size-7" src="assets/image/github.png" alt="">
+        </div>
+    </div> 
+    </section>
+    <!-- Header Section Bottom -->
+     <section class="">
+        <div class="max-w-[1400px] mx-auto flex items-center justify-between bg px-6 py-6">
+            <div>
+                <a href="index.html"><img class="w-44 h-10" src="https://framerusercontent.com/images/E5myaVUgrAN9vkh3485pi8gmFg8.svg" alt=""></a></div>
+            <nav class="relative hidden md:flex gap-7">
+                
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="menu.html">Menu</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+                <a href="book.html">Book A Table</a>
+            </nav>
+            <button class="hidden md:inline-block rounded-full w-[210px] h-[50px] px-6 py-2 text-lg font-bold border-black border-2">Buy This Tamplate</button>
+            <div class="flex flex-col gap-1 md:hidden">
+                <div class="w-8 h-1 bg-black"></div>
+                <div class="w-8 h-1 bg-black"></div>
+                <div class="w-8 h-1 bg-black"></div>
+            </div>
+        </div>
+     </section>
+    </header>
+    <!-- Header Section End -->
+     <main>
+    <!-- Hero Section Start -->
+        <section>
+            <div>
+                <div class="max-w-[1400px] mx-auto flex flex-col">
+                    <h1 class="w-[400px] md:w-[500px] text-center text-[55px] md:text-[70px] font-semi-bold mx-auto mt-[50px] md:mt-[20px] mb-[10px] md:mb-[10px]">Book A Table</h1>
+                    <p class="w-[350px] md:w-[600px] text-center text-[20px] mx-auto mb-[35px] leading-[25px] md:leading-[1.2]">We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
+                    
+                </div>
+            </div>
+        </section>
+    <!-- Hero Section End -->
+
+    <!-- Form Section Start -->
+     <section class="flex mb-[20px]">
+        <div class="flex mx-auto w-[400px] md:w-[800px] h-[600px] px-[20px] py-[50px] rounded-[20px] bg-slate-50">
+           
+           
+            <form action="https://formspree.io/f/mqazzlvk"
+            method="POST" class=" mx-auto flex justify-between flex-wrap">
+               
+                <div class="flex flex-col">
+                    <label for="date" class="font-sans font-bold">Date*</label>
+                    <input id="date" type="date" name="Date" class=" mx-auto mt-[15px] w-[150px] md:w-[350px] h-[60px] rounded-[50px] bg-white border-[1px] border-black px-[20px]">
+                </div>
+                
+
+                <div class="flex flex-col">
+                    <label for="time" class="font-sans font-bold">Time*</label>
+                    <input id="time" type="time" name="Time" " class=" mx-auto mt-[15px] w-[150px] md:w-[350px] h-[60px] rounded-[50px] bg-white border-[1px] border-black px-[20px]">
+                </div>
+
+
+                <div class="flex flex-col">
+                    <label for="name" class="font-sans font-bold">Name*</label>
+                    <input id="name" type="text" name="Name" placeholder="Your Name" class=" mx-auto mt-[15px] w-[150px] md:w-[350px] h-[60px] rounded-[50px] bg-white border-[1px] border-black px-[20px]">
+                </div>
+
+
+                <div class="flex flex-col">
+                    <label for="phone" class="font-sans font-bold">Phone Number*</label>
+                    <input id="phone" type="number" name="Phone Number" placeholder="X-XX-XXXXXXX" class=" mx-auto mt-[15px] w-[150px] md:w-[350px] h-[60px] rounded-[50px] bg-white border-[1px] border-black px-[20px]">
+                </div>
+
+
+
+                
+                
+
+                
+                <div class="flex flex-col">
+                    <label for="person" class="font-sans font-bold">Total Person*</label>
+                    <input id="person" type="number" name="Total Person" class=" mx-auto mt-[15px] w-[350px] md:w-[750px] h-[60px] rounded-[50px] bg-white border-[1px] border-black px-[20px]">
+                </div>
+
+
+                
+
+                <input class="bg-orange-600 w-[350px] md:w-[750px] mx-auto text-white font-sans font-bold rounded-[50px] text-[17px]" type="submit" value="Send Message">
+
+
+            </form>
+        </div>
+     </section>
+    <!-- Form Section End -->
+
+    <!-- call Section Start -->
+     <section class="mx-auto w-[400px] md:w-[800px] ">
+       
+        <div class="flex flex-col md:flex-row gap-[20px] md:gap-[50px] mx-auto items-center md:justify-center px-[50px] py-[50px] font-sans font-bold">
+        
+        <div class="flex flex-col items-center gap-2" >
+            <h3>Call Us:</h3>
+            <h4 class="text-orange-600">+1-234-567-8900</h4>
+        </div>
+
+        <div class="flex flex-col items-center gap-2">
+            <h3>Hours:</h3>
+            <h4 class="w-[200px] text-center font-thin">Mon-Fri: 11am - 8pm Sat, Sun: 9am - 10pm</h4>
+        </div>
+
+        <div class="flex flex-col items-center gap-2">
+            <h3>Our Location:</h3>
+            <h4 class="w-[200px] text-center font-thin">123 Bridge Street Nowhere Land, LA 12345 United States</h4>
+        </div>
+
+    </div>
+
+
+     </section>
+    <!-- call Section End -->
+
+    
+
+    
+     </main>
+
+     <!-- footer Section Start -->
+      <footer class="max-w-full bg-green-950 h-[1000px] md:h-[560px]">
+        <section class=" mx-auto md:w-[1400px] px-[40px] md:px-[10px] py-[50px] md:flex md:gap-[100px]">
+
+        <!-- Footer One -->
+         <div class="w-[300px] flex flex-col gap-[20px]">
+            <img class="w-[180px]" src="https://framerusercontent.com/images/ovsDYb8XoNRepBen4nFq1Eoi39Y.svg" alt="">
+            <p class="text-white">In the new era of technology we look a in the future with certainty and pride to for our company and.</p>
+            <div class="flex gap-3">
+                <img class="size-7" src="assets/image/twitter.png" alt="">
+                <img class="size-7" src="assets/image/Facebook.png" alt="">
+                <img class="size-7" src="assets/image/instagram.png" alt="">
+                <img class="size-7" src="assets/image/github.png" alt="">
+            </div>
+         </div>
+
+
+         <!-- Footer Two -->
+
+         <div class="md:hidden">
+            <h3 class="mt-[50px] md:mt-[0px] mb-[20px] text-white">Follow Us On Instagram</h3>
+            <div class="flex flex-wrap gap-[20px] w-[260px] md:w-[350px]">
+                <img class="size-[120px] md:size-[150px] rounded-[10px] bg-cover object-cover" src="https://framerusercontent.com/images/KvyNhd9laU6A2nKwz33lGkC1Dto.jpg?scale-down-to=512" alt="">
+                <img class="size-[120px] md:size-[150px] rounded-[10px] bg-cover object-cover" src="https://framerusercontent.com/images/R0saKMBtRgA98LgN2kR0xyaSiCc.jpg?scale-down-to=512" alt="">
+                <img class="size-[120px] md:size-[150px] rounded-[10px] bg-cover object-cover" src="https://framerusercontent.com/images/oBRH8yYNcvRN1Ib3BzWjK0lDwk.png?scale-down-to=512" alt="">
+                <img class="size-[120px] md:size-[150px] rounded-[10px] bg-cover object-cover" src="https://framerusercontent.com/images/yVfjcyzGekdTi0GtK3d0RxDYEQ.jpg?scale-down-to=512" alt="">
+
+            </div>
+         </div>
+
+
+
+         <!-- Footer Three -->
+
+         <div class="text-white mt-[50px] md:mt-[0px] flex gap-[50px] md:gap-[200px]">
+            <div>
+                <h3 class="text-[20px]">Pages</h3>
+                <nav class="flex flex-col mt-[20px] gap-[10px]">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Menu</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+            <div>
+                <h3 class="text-[20px]">Utility Pages</h3>
+                <nav class="flex flex-col mt-[20px] gap-[10px]">
+                    <a href="#">Start Here</a>
+                    <a href="#">Breakfast</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Dinner</a>
+                </nav>
+            </div>
+
+         </div>
+
+
+         <!-- Footer-Four -->
+
+         <div class="hidden md:flex md:flex-col">
+            <h3 class="mt-[50px] md:mt-[0px] mb-[20px] text-white">Follow Us On Instagram</h3>
+            <div class="flex flex-wrap gap-[20px] w-[260px] md:w-[350px]">
+                <img class="size-[120px] md:size-[150px] rounded-[10px] bg-cover object-cover" src="https://framerusercontent.com/images/KvyNhd9laU6A2nKwz33lGkC1Dto.jpg?scale-down-to=512" alt="">
+                <img class="size-[120px] md:size-[150px] rounded-[10px] bg-cover object-cover" src="https://framerusercontent.com/images/R0saKMBtRgA98LgN2kR0xyaSiCc.jpg?scale-down-to=512" alt="">
+                <img class="size-[120px] md:size-[150px] rounded-[10px] bg-cover object-cover" src="https://framerusercontent.com/images/oBRH8yYNcvRN1Ib3BzWjK0lDwk.png?scale-down-to=512" alt="">
+                <img class="size-[120px] md:size-[150px] rounded-[10px] bg-cover object-cover" src="https://framerusercontent.com/images/yVfjcyzGekdTi0GtK3d0RxDYEQ.jpg?scale-down-to=512" alt="">
+
+            </div>
+         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+        <section class=" mx-auto w-[1400px] flex items-center"><h3 class=" text-white px-[25px] md:mx-auto">Copyright © 2023 FramerBite. All Rights Reserved</h3></section>
+      </footer>
+     
+
+</body>
+</html>
