@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexux</title>
+    <link rel="shortcut icon" href="https://framerusercontent.com/images/3xRpkaBbDgK6zKBl5C8f3z6ZA.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily:{
+                inter:["inter", "sans"],
+                shahin:["shahin", "sans"],
+                inter2:[ "inter2", "sans"],
+                inter3:[ "inter3", "sans"],
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="md:w-full w-[350px] h-full relative font-inter3 md:bg-navy-500 md:bg-opacity-90 bg-[#00051a] py-[5px]">
+
+  <!-- Header Section Start -->
+
+  <header class="sticky top-0 z-[99] sm:flex sm:flex-row" data-aos="fade-down">
+    
+    <div class="mt-[50px] md:w-[1400px] sm:w-[350px] h-[100px] mx-auto flex justify-between items-center bg-gradient-to-r from-purple-800 to-blue-800  bg-opacity-40 hover:shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] text-white px-[50px] text-[20px] rounded-[5px] md:hover:h-[100px] hover:h-[250px] ">
+      
+      <img src="https://framerusercontent.com/images/3xRpkaBbDgK6zKBl5C8f3z6ZA.svg" alt="" class="w-[100px] h-[15px]">
+
+      <nav class="hidden md:flex gap-[30px] ml-[120px]">
+        <a href="">Home</a>
+        <a href="">Features</a>
+        <a href="">How to Use</a>
+        <a href="">Pricing</a>
+        <a href="">Help</a>
+      </nav>
+
+      <!-- For DropDown -->
+      <nav>
+        <div class="md:hidden sm:block">
+          <button class="dropdown-btn text-[25px] mt-[20px] mb-[20px]" onclick="toggleDropdown()">Menu</button>
+          <ul class="dropdown-menu hidden text-amber-200 text-[20px]">
+            <li><a href="">Home</a></li>
+            <li></li><a href="">Features</a></li>
+            <li></li><a href="">How to Use</a></li>
+            <li></li><a href="">Pricing</a></li>
+            <li></li><a href="">Help</a></li>
+          </ul>
+          
+        </div>
+        
+      </nav>
+
+
+      <!-- Hello World -->
+      
+
+      <button class="hidden md:block bg-green-950 text-green-400 border border-green-400 border-b-4 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group">
+        <span class="bg-green-400 shadow-green-400 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
+        Buy Now
+      </button>
+    </div>
+  </header>
+
+  <!-- Headre Section End -->
+
+
+  <!-- Main Section Start -->
+
+
+
+  <main>
+  <!-- Hero Section Start -->  
+    <section class="md:mt-[100px] mt-[-20px] bg-cover bg-center bg-[url('https://framerusercontent.com/images/4VX0PEAzbHMFjS7HeLo6v4CcP0.png?scale-down-to=2048')]">
+      <div class="relative md:w-[1400px] sm:w-[350px] md:h-[800px] h-[500px] mx-auto text-center text-white flex flex-col gap-[20px] py-[50px]">
+        
+        <div>
+          <h2 class="text-[20px]" >A.I Driven</h2>
+          <span class=" md:absolute md:w-[80px] md:h-[2px] md:bg-white md:top-[65px] md:right-[550px]"></span>
+          <span class=" md:absolute md:w-[80px] md:h-[2px] md:bg-white md:top-[65px] md:left-[550px]"></span>
+        </div>
+          
+        
+        <h1 class="md:w-[800px] sm:w-[350px] mx-auto md:text-[60px] text-[35px] md:leading-[60px]">Transform Your Business with AI-Powered Solutions</h1>
+        <p>Enter your email and start trial experience 14-days Free</p>
+        <div class="bg-[#1D217C] md:w-[600px] w-[350px] mx-auto flex flex-row justify-around gap-[10px] py-[10px] px-[10px] rounded-[50px] items-center shadow-yellow-500 shadow-sm">
+          <input type="text" placeholder="Your Email Address" class="md:w-[380px] w-[180px] h-[35px] rounded-xl px-[10px] text-[17px] bg-transparent">
+          <button class="w-[130px] bg-gradient-to-r from-purple-400 to-blue-500 hover:from-pink-500 hover:to-purple-600 text-white font-bold py-1 px-2 rounded-full shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce">
+            Get Demo Now
+          </button>
+        </div>
+        <img src="https://framerusercontent.com/images/SDGdXNGfNOqKZyGuibtu3qIdGkw.svg" alt="" class="md:w-[1100px] w-[350px] md:mt-[85px] mt-[25px] mx-auto" data-aos="fade-up">
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+
+
+    <!-- About Section Start -->
+    <section>
+      <div class="relative md:w-[1400px] w-[350px] md:h-[720px] h-[550px] mx-auto text-center text-white flex flex-col gap-[20px] py-[50px] mt-[30px]">
+        
+        <div>
+          <h2 class="md:text-[20px]" >About Us</h2>
+          <span class=" md:absolute md:w-[80px] md:h-[2px] md:bg-white md:top-[65px] md:right-[550px]"></span>
+          <span class=" md:absolute md:w-[80px] md:h-[2px] md:bg-white md:top-[65px] md:left-[550px]"></span>
+        </div>
+          
+        
+        <h2 class="md:w-[800px] mx-auto md:text-[45px] text-[25px] md:leading-[60px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, porro.</h2>
+        
+        
+         
+          <button class="bg-gradient-to-r from-purple-400 to-blue-500 hover:from-green-500 hover:to-yellow-300 text-white font-bold py-3 px-2 rounded-full shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce w-[250px] mx-auto md:mt-[30px] mt-[10px] hover:text-black text-[20px]">
+            More About us
+          </button>
+        
+          <div class="flex md:w-[1000px] w-[350px] flex-wrap justify-center mx-auto md:gap-[50px] gap-[5px] mt-[70px] gap-y-[20px]">
+            
+            <div class="md:w-[200px] w-[150px] h-[40px] bg-transparent border-white border-[1px] rounded-full flex justify-around items-center px-[5px] py-[2px]">
+              <h3 class="md:text-[20px]">🔯</h3>
+              <h2 class="md:text-[20px] text:[10px] font-thin">Content Ideas</h2>
+            </div>
+
+            
+              <div class="md:w-[200px] w-[150px] h-[40px] bg-transparent border-white border-[1px] rounded-full flex justify-around items-center px-[5px] py-[2px]">
+                <h3 class="text-[20px]">🔯</h3>
+                <h2 class="md:text-[20px] text:[10px] font-thin">Writer's Assist</h2>
+              </div>
+
+              
+            
+                <div class="md:w-[200px] w-[150px] h-[40px] bg-transparent border-white border-[1px] rounded-full flex justify-around items-center px-[5px] py-[2px]">
+                  <h3 class="text-[20px]">🔯</h3>
+                  <h2 class="md:text-[20px] text:[10px] font-thin">Quality Control</h2>
+                </div>
+
+                
+            
+                  <div class="md:w-[200px] w-[150px] h-[40px] bg-transparent border-white border-[1px] rounded-full flex justify-around items-center md:px-[5px] px-0 py-[2px]">
+                    <h3 class="text-[20px]">🔯</h3>
+                    <h2 class="md:text-[20px] text:[10px] font-thin">Faster Workflow</h2>
+                  </div>
+
+                  
+            
+                    <div class="md:w-[200px] w-[150px] h-[40px] bg-transparent border-white border-[1px] rounded-full flex justify-around items-center md:px-[5px] px-0 py-[2px]">
+                      <h3 class="text-[20px]">🔯</h3>
+                      <h2 class="md:text-[20px] text:[8px] font-thin">Increased Output</h2>
+                    </div>
+
+                    
+            
+                      <div class="md:w-[200px] w-[150px] h-[40px] bg-transparent border-white border-[1px] rounded-full flex justify-around items-center px-[5px] py-[2px]">
+                        <h3 class="text-[20px]">🔯</h3>
+                        <h2 class="md:text-[20px] text:[10px] font-thin">Super-Brain</h2>
+                      </div>
+
+                      
+            
+                        <div class="md:w-[200px] w-[250px] h-[40px] bg-transparent border-white border-[1px] rounded-full flex justify-around items-center px-[5px] py-[2px]">
+                          <h3 class="text-[20px]">🔯</h3>
+                          <h2 class="md:text-[20px] text:[10px] font-thin">Style Variations</h2>
+                        </div>
+
+            
+          </div>
+
+          <img src="https://framerusercontent.com/images/VMpZQGWRgcVjAfW8fLtwc33hJw.svg" alt="" class="bg-center bg-cover absolute top-[300px]">
+        
+      </div>
+    </section>
+
+    <!-- About Section End -->
+
+    <!-- Product Section Start -->
+     
+      
+        <section class="md:mt-[100px] mt-[50px]">
+          <div class="relative md:w-[1400px] w-[350px] md:h-[400px] mx-auto text-center text-white flex flex-col gap-[20px] py-[50px]">
+            
+            <div>
+              <h2 class="md:text-[20px] text-[30px]" >Features</h2>
+              <span class=" md:absolute md:w-[80px] md:h-[2px] md:bg-white md:top-[65px] md:right-[550px]"></span>
+              <span class=" md:absolute md:w-[80px] md:h-[2px] md:bg-white md:top-[65px] md:left-[550px]"></span>
+            </div>
+              
+            
+            <h2 class="md:w-[800px] w-350[px] mx-auto md:text-[60px] text-[35px] md:leading-[60px] leading-[40px]">Our Client Love to use Our Products</h2>
+            <p>Free Up Your Time to Focus on What Matters Most</p>
+            
+            </div>
+            <div class="md:flex md:w-[1400px] w-[350px] mx-auto justify-between">
+            <img src="https://framerusercontent.com/images/NgHqg6PDC08O1bPOTUyhSTCG4.svg?scale-down-to=512" alt="" class="md:w-[690px] w-[330px] mt-[15px] mx-auto rounded-[20px]" data-aos="fade-up">
+            <img src="https://framerusercontent.com/images/jAdKLWLKnqm6wt2Ys3pY6aGes1w.png?scale-down-to=512" alt="" class="md:w-[690px] w-[330px] mt-[15px] mx-auto rounded-[20px]" data-aos="fade-up">
+          </div>
+
+          <div class="md:w-[1400px] w-[350px] mx-auto text-white mt-[20px] text-center border-[3px] shadow-md shadow-amber-100 rounded-lg relative bg-indigo-950">
+            <img src="https://framerusercontent.com/images/Y1kGXwfQm3mKSv9uqnzf8LKBPGI.svg" alt="" class="rotate-90 absolute top-[0px] right-[50px] mx-auto md:w-[400px] w-[250px]">
+            <img src="https://framerusercontent.com/images/xCBxbsbUvhDc7FL0iQCnSHUSok.svg" alt="" class="mx-auto mt-[20px]">
+            <h2 class="md:w-[800px] mx-auto text-[30px] md:mt-[30px] mt-[-10px] md:mb-[30px] mb-[10px]">Real-time Fact-Checking and Plagiarism Detection</h2>
+            <p>Integrate with reliable fact-checking databases</p>
+            <img src="https://framerusercontent.com/images/SDGdXNGfNOqKZyGuibtu3qIdGkw.svg" alt="" class="md:w-[1100px] w-[300px] md:mt-[85px] mt-[20px] mx-auto" data-aos="fade-up">
+          </div>
+          
+          <div class="bg-indigo-950 md:w-[1400px] w-[350px] md:h-[150px] h-[250px] md:gap-0 gap-[20px] mx-auto md:flex md:flex-row flex-col md:justify-around justify-center py-[25px] px-[10px] rounded-[10px] mt-[40px] md:py-0 items-center shadow-yellow-500 shadow-md">
+            <p class="text-white text-[17px] md:w-[500px] w-[300px]  mx-auto text-center">Stop writer's block and generate fresh content ideas with our AI assistant. Take your content to next level!</p>
+            <button class=" md:mx-auto bg-gradient-to-r from-purple-400 to-blue-500 hover:from-pink-500 hover:to-purple-600 text-white font-bold py-2 px-6 rounded-full shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce md:mt-0 mt-[50px] w-[200px] md:ml-0 ml-[60px]">
+              Get Demo Now
+            </button>
+          </div>
+
+          </div>
+        </section>
+        <!-- Product Section End -->
+         <!-- Tracking Section Start -->
+
+         <section class="md:mt-[100px] mt-[20] bg-cover bg-center bg-[url('https://framerusercontent.com/images/4VX0PEAzbHMFjS7HeLo6v4CcP0.png?scale-down-to=2048')]">
+          <div class=" md:w-[1400px] w-[350px] md:h-[600px] h-[400px] mx-auto text-center text-white flex flex-row justify-between items-center gap-[20px] md:py-[50px] py-[15px]">
+            
+            <div>
+
+              <div class="relative">
+                <h2 class="text-[20px]" >Build for you</h2>
+                <span class=" md:absolute md:w-[80px] md:h-[2px] md:bg-white md:top-[12px] md:right-[320px]"></span>
+                <span class=" md:absolute md:w-[80px] md:h-[2px] md:bg-white md:top-[12px] md:left-[320px]"></span>
+              </div>
+                
+              
+              <h2 class="w-[350px]  mx-auto text-[40px] md:leading-[40px] mt-[30px] mb-[30px]">TWhat we ‘ve Built for you</h2>
+              <p class="md:w-[500px] w-[320px]">Harnessing the power of artificial intelligence to revolutionize industries and enhance human experiences.</p>
+              
+                <button class="bg-gradient-to-r from-purple-400 to-blue-500 hover:from-pink-500 hover:to-purple-600 text-white font-bold py-2 px-6 rounded-full shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce mt-[30px]">
+                  Explore More
+                </button>
+            </div>
+
+            <div>
+            <img src="https://framerusercontent.com/images/Z1cTyBiKXSbB6QEoRAeCwGk6C1M.png?scale-down-to=1024" alt="" class="w-[450px] mx-auto" data-aos="fade-left">
+          </div>
+          </div>
+        </section>
+        <!-- Tracker Section End -->
+
+        <!-- Form Section Start -->
+        <div class="md:w-[1400px] hidden mx-auto md:flex justify-between items-center">
+          <div ><h2 class="text-[100px] text-white ">Sing Up Now</h2></div>
+
+<!-- Right -->
+        <div class="relative py-3 sm:max-w-xl sm:mx-auto">
+          <div
+            class="relative px-4 py-10 bg-indigo-950 mx-8 md:mx-0 shadow rounded-3xl sm:p-10"
+          >
+            <div class="max-w-md mx-auto text-white">
+              <div class="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label
+                    class="font-semibold text-sm text-gray-400 pb-1 block"
+                    for="fullname"
+                    >Full Name</label
+                  >
+                  <input
+                    class="border rounded-lg px-3 py-2 mt-1 mb-5 text-sm w-full bg-gray-800 text-white focus:border-blue-500 focus:ring-2 focus:ring-blue-500"
+                    type="text"
+                    id="fullname"
+                  />
+                </div>
+                <div>
+                  <label
+                    class="font-semibold text-sm text-gray-400 pb-1 block"
+                    for="email"
+                    >Email</label
+                  >
+                  <input
+                    class="border rounded-lg px-3 py-2 mt-1 mb-5 text-sm w-full bg-gray-800 text-white focus:border-blue-500 focus:ring-2 focus:ring-blue-500"
+                    type="email"
+                    id="email"
+                  />
+                </div>
+                <div>
+                  <label
+                    class="font-semibold text-sm text-gray-400 pb-1 block"
+                    for="username"
+                    >Username</label
+                  >
+                  <input
+                    class="border rounded-lg px-3 py-2 mt-1 mb-5 text-sm w-full bg-gray-800 text-white focus:border-blue-500 focus:ring-2 focus:ring-blue-500"
+                    type="text"
+                    id="username"
+                  />
+                </div>
+                <div>
+                  <label
+                    class="font-semibold text-sm text-gray-400 pb-1 block"
+                    for="password"
+                    >Password</label
+                  >
+                  <input
+                    class="border rounded-lg px-3 py-2 mt-1 mb-5 text-sm w-full bg-gray-800 text-white focus:border-blue-500 focus:ring-2 focus:ring-blue-500"
+                    type="password"
+                    id="password"
+                  />
+                </div>
+              </div>
+              <div class="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label
+                    class="font-semibold text-sm text-gray-400 pb-1 block"
+                    for="dob"
+                    >Date of Birth</label
+                  >
+                  <input
+                    class="border rounded-lg px-3 py-2 mt-1 mb-5 text-sm w-full bg-gray-800 text-white focus:border-blue-500 focus:ring-2 focus:ring-blue-500"
+                    type="date"
+                    id="dob"
+                  />
+                </div>
+                <div>
+                  <label
+                    class="font-semibold text-sm text-gray-400 pb-1 block"
+                    for="gender"
+                    >Gender</label
+                  >
+                  <select
+                    class="border rounded-lg px-3 py-2 mt-1 mb-5 text-sm w-full bg-gray-800 text-white focus:border-blue-500 focus:ring-2 focus:ring-blue-500"
+                    id="gender"
+                  >
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="flex justify-center items-center">
+                <div>
+                  <button
+                    class="flex items-center justify-center py-2 px-20 bg-white hover:bg-gray-200 focus:ring-blue-500 focus:ring-offset-blue-200 text-gray-700 w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg"
+                  >
+                    <svg
+                      viewBox="0 0 24 24"
+                      height="25"
+                      width="25"
+                      y="0px"
+                      x="0px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12,5c1.6167603,0,3.1012573,0.5535278,4.2863159,1.4740601l3.637146-3.4699707 C17.8087769,1.1399536,15.0406494,0,12,0C7.392395,0,3.3966675,2.5999146,1.3858032,6.4098511l4.0444336,3.1929321 C6.4099731,6.9193726,8.977478,5,12,5z"
+                        fill="#F44336"
+                      ></path>
+                      <path
+                        d="M23.8960571,13.5018311C23.9585571,13.0101929,24,12.508667,24,12 c0-0.8578491-0.093689-1.6931763-0.2647705-2.5H12v5h6.4862061c-0.5247192,1.3637695-1.4589844,2.5177612-2.6481934,3.319458 l4.0594482,3.204834C22.0493774,19.135437,23.5219727,16.4903564,23.8960571,13.5018311z"
+                        fill="#2196F3"
+                      ></path>
+                      <path
+                        d="M5,12c0-0.8434448,0.1568604-1.6483765,0.4302368-2.3972168L1.3858032,6.4098511 C0.5043335,8.0800171,0,9.9801636,0,12c0,1.9972534,0.4950562,3.8763428,1.3582153,5.532959l4.0495605-3.1970215 C5.1484375,13.6044312,5,12.8204346,5,12z"
+                        fill="#FFC107"
+                      ></path>
+                      <path
+                        d="M12,19c-3.0455322,0-5.6295776-1.9484863-6.5922241-4.6640625L1.3582153,17.532959 C3.3592529,21.3734741,7.369812,24,12,24c3.027771,0,5.7887573-1.1248169,7.8974609-2.975708l-4.0594482-3.204834 C14.7412109,18.5588989,13.4284058,19,12,19z"
+                        fill="#00B060"
+                      ></path>
+                      <path
+                        opacity=".1"
+                        d="M12,23.75c-3.5316772,0-6.7072754-1.4571533-8.9524536-3.7786865C5.2453613,22.4378052,8.4364624,24,12,24 c3.5305786,0,6.6952515-1.5313721,8.8881226-3.9592285C18.6495972,22.324646,15.4981079,23.75,12,23.75z"
+                      ></path>
+                      <polygon
+                        opacity=".1"
+                        points="12,14.25 12,14.5 18.4862061,14.5 18.587492,14.25"
+                      ></polygon>
+                      <path
+                        d="M23.9944458,12.1470337C23.9952393,12.0977783,24,12.0493774,24,12 c0-0.0139771-0.0021973-0.0274658-0.0022583-0.0414429C23.9970703,12.0215454,23.9938965,12.0838013,23.9944458,12.1470337z"
+                        fill="#E6E6E6"
+                      ></path>
+                      <path
+                        opacity=".2"
+                        d="M12,9.5v0.25h11.7855721c-0.0157471-0.0825195-0.0329475-0.1680908-0.0503426-0.25H12z"
+                        fill="#FFF"
+                      ></path>
+                      <linearGradient
+                        gradientUnits="userSpaceOnUse"
+                        y2="12"
+                        y1="12"
+                        x2="24"
+                        x1="0"
+                        id="LxT-gk5MfRc1Gl_4XsNKba_xoyhGXWmHnqX_gr1"
+                      >
+                        <stop stop-opacity=".2" stop-color="#fff" offset="0"></stop>
+                        <stop stop-opacity="0" stop-color="#fff" offset="1"></stop>
+                      </linearGradient>
+                      <path
+                        d="M23.7352295,9.5H12v5h6.4862061C17.4775391,17.121582,14.9771729,19,12,19 c-3.8659668,0-7-3.1340332-7-7c0-3.8660278,3.1340332-7,7-7c1.4018555,0,2.6939087,0.4306641,3.7885132,1.140686 c0.1675415,0.1088867,0.3403931,0.2111206,0.4978027,0.333374l3.637146-3.4699707L19.8414307,2.940979 C17.7369385,1.1170654,15.00354,0,12,0C5.3725586,0,0,5.3725586,0,12c0,6.6273804,5.3725586,12,12,12 c6.1176758,0,11.1554565-4.5812378,11.8960571-10.4981689C23.9585571,13.0101929,24,12.508667,24,12 C24,11.1421509,23.906311,10.3068237,23.7352295,9.5z"
+                        fill="url(#LxT-gk5MfRc1Gl_4XsNKba_xoyhGXWmHnqX_gr1)"
+                      ></path>
+                      <path
+                        opacity=".1"
+                        d="M15.7885132,5.890686C14.6939087,5.1806641,13.4018555,4.75,12,4.75c-3.8659668,0-7,3.1339722-7,7 c0,0.0421753,0.0005674,0.0751343,0.0012999,0.1171875C5.0687437,8.0595093,8.1762085,5,12,5 c1.4018555,0,2.6939087,0.4306641,3.7885132,1.140686c0.1675415,0.1088867,0.3403931,0.2111206,0.4978027,0.333374 l3.637146-3.4699707l-3.637146,3.2199707C16.1289062,6.1018066,15.9560547,5.9995728,15.7885132,5.890686z"
+                      ></path>
+                      <path
+                        opacity=".2"
+                        d="M12,0.25c2.9750366,0,5.6829224,1.0983887,7.7792969,2.8916016l0.144165-0.1375122 l-0.110014-0.0958166C17.7089558,1.0843592,15.00354,0,12,0C5.3725586,0,0,5.3725586,0,12 c0,0.0421753,0.0058594,0.0828857,0.0062866,0.125C0.0740356,5.5558472,5.4147339,0.25,12,0.25z"
+                        fill="#FFF"
+                      ></path>
+                    </svg>
+                    <span class="ml-2">Sign up with Google</span>
+                  </button>
+                  <button
+                    class="flex items-center justify-center py-2 px-20 bg-white hover:bg-gray-200 focus:ring-blue-500 focus:ring-offset-blue-200 text-gray-700 w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg mt-4"
+                  >
+                    <svg
+                      viewBox="0 0 30 30"
+                      height="30"
+                      width="30"
+                      y="0px"
+                      x="0px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M25.565,9.785c-0.123,0.077-3.051,1.702-3.051,5.305c0.138,4.109,3.695,5.55,3.756,5.55 c-0.061,0.077-0.537,1.963-1.947,3.94C23.204,26.283,21.962,28,20.076,28c-1.794,0-2.438-1.135-4.508-1.135 c-2.223,0-2.852,1.135-4.554,1.135c-1.886,0-3.22-1.809-4.4-3.496c-1.533-2.208-2.836-5.673-2.882-9 c-0.031-1.763,0.307-3.496,1.165-4.968c1.211-2.055,3.373-3.45,5.734-3.496c1.809-0.061,3.419,1.242,4.523,1.242 c1.058,0,3.036-1.242,5.274-1.242C21.394,7.041,23.97,7.332,25.565,9.785z M15.001,6.688c-0.322-1.61,0.567-3.22,1.395-4.247 c1.058-1.242,2.729-2.085,4.17-2.085c0.092,1.61-0.491,3.189-1.533,4.339C18.098,5.937,16.488,6.872,15.001,6.688z"
+                      ></path>
+                    </svg>
+                    <span class="ml-2">Sign up with Apple</span>
+                  </button>
+                </div>
+              </div>
+              <div class="mt-5">
+                <button
+                  class="py-2 px-4 bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg"
+                  type="submit"
+                >
+                  Sign up
+                </button>
+              </div>
+              <div class="flex items-center justify-between mt-4">
+                <span class="w-1/5 border-b dark:border-gray-600 md:w-1/4"></span>
+                <a
+                  class="text-xs text-gray-500 uppercase dark:text-gray-400 hover:underline"
+                  href="#"
+                  >have an account? Log in</a
+                >
+                <span class="w-1/5 border-b dark:border-gray-600 md:w-1/4"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+        
+          
+          
+          
+       
+        
+         <!-- Form Section End -->
+      
+  </main>
+  <footer class="bg-[url('https://framerusercontent.com/images/oFP0q4fZtDXdgTseJflmzPeHDW4.webp?scale-down-to=2048')] bg-cover bg-center">
+    <div class="mx-auto md:w-[1400px] w-[350px] flex flex-col md:justify-between text-white py-[50px]">
+    <!-- Top Div -->
+    <div class="md:flex md:justify-between text-center">
+      <!-- div1 -->
+       <div>
+        <img src="https://framerusercontent.com/images/1nggKCdECimUG82bYazOYAFxc.svg" alt="" class="md:w-[100px] w-[200px] md:ml-0 ml-[75px]">
+        <p class="mt-[20px] md:w-[400px] md:text-left w-[350px]">Revolutionize the writing industry by making high-quality content generation faster </p>
+       </div>
+
+       <!-- div2 -->
+        <div>
+          <p>Email</p>
+          <h3 class="text-[20px]">nexux.ai@gmail.com</h3>
+          <p class="mt-[20px]">Phone number</p>
+          <h3 class="text-[20px] mb-[20px]">+1 (208) 120-802</h3>
+          <p>Location</p>
+          <h3 class="text-[20px]">Los Angeles, CA</h3>
+        </div>
+        <!-- Div-3 -->
+         <div>
+          <h3 class="text-[20px] mb-[30px]">Start trial experience 14-days Free</h3>
+          <button class="bg-gradient-to-r from-purple-400 to-blue-500 hover:from-pink-500 hover:to-purple-600 text-white font-bold py-2 px-6 rounded-full shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce mb-[30px]">
+            Get Started</button>
+
+            <div class="flex w-[45px] gap-[10px]  ">
+              <img src="assets/image/Facebook.png" alt="" class="md:ml-[80px] ml-[95px]">
+              <img src="assets/image/instagram.png" alt="">
+              <img src="assets/image/github.png" alt="">
+            </div>
+
+         </div>
+    </div>
+
+    <!-- Middle Div -->
+
+    <div class="md:flex justify-between md:mt-[100px] items-center mt-[30px] mb-[100px]">
+      <p class="md:w-[400px] w-[350px] text-center">© 2024 Copyright - Nexux |  Designed by "LoganCee  |  License  |  Powered by Frame</p>
+      <a href="index.html" class="text-[20px] md:ml-0 ml-[120px] md:mt-0 mt-[20px]">Back to top</a>
+    </div>
+    <!-- Last Div -->
+     <div class="mx-auto">
+      <img src="https://framerusercontent.com/images/OlJTVC16vO9cIxwtv3G726HxlE8.svg?scale-down-to=1024" alt="" class="md:w-[1000px] w-[320px]">
+     </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init({
+                  duration: 1500,
+              });
+    </script> 
+    
+</body>
+<script src="app.js"></script>
+
+
+
+
+
+</html>
