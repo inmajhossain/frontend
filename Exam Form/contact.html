@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inmaj - Web Developer</title>
+    <link
+      rel="shortcut icon"
+      href="https://framerusercontent.com/images/U07AsvVKwVsSMuFrIdeV15pXmbI.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              inter: ["inter", "sans"],
+              shahin: ["shahin", "sans"],
+              inter2: ["inter2", "sans"],
+              inter3: ["inter3", "sans"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="w-full h-full relative font-inter bg-slate-300 py-[5px]">
+    <main>
+      <!-- Form Section Start -->
+      <div
+        class="w-[600px] h-[700px] mx-auto mt-[80px] p-[25px] font-inter3 font-bold text-black rounded-[10px] bg-cover bg-opacity-20 bg-green-300 border-[1px] shadow-blue-400 shadow-lg border-indigo-900"
+      >
+        <h2 class="text-center text-[25px] mt-[10px]">
+          Restaurent Reservation Form
+        </h2>
+        <!-- Form Div Start -->
+
+        <div class="mt-[20px]">
+          <form
+            action="https://formspree.io/f/mqazzlvk"
+            method="POST"
+            class="flex flex-col gap-[30px] mx-auto font-thin text-indigo-900"
+          >
+            <!-- 1st Line -->
+            <div class="w-[550px]">
+              <label for="name">Name</label> <br />
+              <input
+                type="text"
+                name="First Name"
+                id="name"
+                class="p-[6px] w-[250px] border-[1px] rounded-[5px] border-purple-950"
+                placeholder="First"
+                required
+              />
+              <input
+                type="text"
+                name="Last Name"
+                id="name"
+                class="p-[6px] w-[250px] ml-[45px] border-purple-950 border-[1px] rounded-[5px]"
+                placeholder="Last"
+                required
+              />
+            </div>
+            <!-- 2nd Line -->
+            <div class="flex gap-[45px]">
+              <div>
+                <label for="email">Email</label> <br />
+                <input
+                  type="email"
+                  name="Email"
+                  id="email"
+                  class="p-[6px] w-[250px] border-[1px] rounded-[5px] border-purple-950"
+                  required
+                />
+              </div>
+              <div>
+                <label for="phone">Phone Number</label> <br />
+                <input
+                  type="number"
+                  name="Phone Number"
+                  id="phone"
+                  class="p-[6px] w-[250px] border-[1px] rounded-[5px] border-purple-950"
+                  placeholder="##### ######"
+                />
+              </div>
+            </div>
+            <!-- 3rd Line -->
+            <div class="flex gap-[45px]">
+              <div>
+                <label for="date">Reservation Date</label> <br />
+                <input
+                  type="date"
+                  name="Reservation Date"
+                  id="date"
+                  class="p-[6px] w-[250px] border-[1px] rounded-[5px] border-purple-950"
+                />
+              </div>
+              <div>
+                <label for="time">Reservation Time</label> <br />
+                <input
+                  type="time"
+                  name="Reservation Time"
+                  id="time"
+                  class="p-[6px] w-[250px] border-[1px] rounded-[5px] border-purple-950"
+                />
+              </div>
+            </div>
+            <!-- 4th Line -->
+            <div>
+              <label for="person">How many person will you be with?</label>
+              <br />
+              <input
+                type="number"
+                name="Number of Person"
+                id="person"
+                class="p-[6px] w-[545px] border-[1px] rounded-[5px] border-purple-950"
+              />
+            </div>
+            <!-- 5th Line -->
+            <div>
+              <label for="note">Note</label>
+              <br />
+              <textarea
+                name="Message"
+                id="note"
+                rows="3"
+                class="p-[6px] w-[545px] border-[1px] rounded-[5px] border-purple-950"
+              ></textarea>
+            </div>
+            <!-- 6th Line -->
+            <div>
+              <input
+                type="submit"
+                value="Send"
+                class="p-[6px] w-[545px] border-[1px] rounded-[5px] border-purple-950 bg-indigo-500 text-white text-[20px] font-thin"
+              />
+            </div>
+          </form>
+        </div>
+        <!-- Form Div End-->
+      </div>
+      <!-- Form Section End -->
+    </main>
+  </body>
+</html>
